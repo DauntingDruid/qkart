@@ -294,6 +294,7 @@ const Products = () => {
               <Stack height="50vh" alignItems="center" justifyContent="center" spacing={1}>
                 <CircularProgress color="success" />
                 <p className="loading-text">Loading Products...</p>
+                <p className="loading-text">(Might take upto a minute if backend is cold booting)</p>
               </Stack>
               )
               :
